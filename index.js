@@ -1,9 +1,9 @@
-const productNameInput = document.getElementById('productName');
-const productPriceInput = document.getElementById('productPrice');
-const addButton = document.getElementById('add');
-const productList = document.getElementById('product-list');
-const totalCountSpan = document.getElementById('totalCount');
-const totalPriceSpan = document.getElementById('totalPrice');
+const productNameInput = document.querySelector('#productName');
+const productPriceInput = document.querySelector('#productPrice');
+const addButton = document.querySelector('#add');
+const productList = document.querySelector('#product-list');
+const totalCountSpan = document.querySelector('#totalCount');
+const totalPriceSpan = document.querySelector('#totalPrice');
 
 let products = JSON.parse(localStorage.getItem('products')) || [];
 

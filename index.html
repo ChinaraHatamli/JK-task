@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>E-commerce</title>
+</head>
+<body>
+<h2>Məhsul Əlavə Et</h2>
+<div class="product-form">
+<input type="text" id="productName" placeholder="Məhsulun adı" required><br>
+
+<input type="number" id="productPrice" placeholder="Qiyməti" required><br>
+
+<button id="add"> Əlavə et </button>
+
+</div>
+
+<ul id="product-list"></ul>
+
+<div class="total-info">
+    <p>Ümumi Məhsul Sayı: <span id="totalCount">0</span></p>
+    <p>Məhsulların toplam dəyəri: <span id="totalPrice">0</span> AZN</p>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
